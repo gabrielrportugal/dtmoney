@@ -22,6 +22,11 @@ export const Content = styled.div`
     border-radius: 0.25rem;
     height: 3rem;
 
+    &:focus {
+      box-shadow: 0 0 0 0;
+      outline: 0;
+    }
+
     transition: filter 0.2s;
 
     &:hover {
